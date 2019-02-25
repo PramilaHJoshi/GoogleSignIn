@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet var label2: UILabel!
     
     @IBOutlet var lbl: UILabel!
     
