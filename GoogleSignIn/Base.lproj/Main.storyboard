@@ -30,13 +30,24 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PeL-ei-7G6">
+                                <rect key="frame" x="16" y="381" width="343" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.46353095770000002" blue="0.001582527068" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="PeL-ei-7G6" firstAttribute="centerX" secondItem="VWi-Mw-Ow4" secondAttribute="centerX" id="7GH-xw-w9r"/>
                             <constraint firstItem="uf7-WN-gEH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="969-Hb-BBi"/>
                             <constraint firstItem="VWi-Mw-Ow4" firstAttribute="top" secondItem="uf7-WN-gEH" secondAttribute="bottom" constant="8" id="CfJ-bN-ue7"/>
                             <constraint firstItem="VWi-Mw-Ow4" firstAttribute="centerX" secondItem="uf7-WN-gEH" secondAttribute="centerX" id="Dax-EJ-e7u"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PeL-ei-7G6" secondAttribute="trailing" constant="16" id="Khv-Yy-zsa"/>
+                            <constraint firstItem="PeL-ei-7G6" firstAttribute="top" secondItem="VWi-Mw-Ow4" secondAttribute="bottom" constant="8" id="b9u-DU-4BQ"/>
                             <constraint firstItem="uf7-WN-gEH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qmA-ch-Td0"/>
+                            <constraint firstItem="PeL-ei-7G6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="vd2-hM-rmg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -47,6 +58,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="133.5832083958021"/>
         </scene>
     </scenes>
 </document>
